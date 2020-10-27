@@ -1,0 +1,67 @@
+{
+  "init": {
+      "answers": [
+          {"content": "仕事を依頼したい", "nextId": "job_offer"},
+          {"content": "ポートフォリオをみたい", "nextId": "consultant"},
+          {"content": "趣味はなんですか", "nextId": "hobby"}
+      ],
+      "question": "こんにちは！Kota Takahashiのホームページへようこそ！ご用件はなんですか？"
+  },
+  "job_offer": {
+      "answers": [
+          {"content": "Webサイトを制作してほしい", "nextId": "website"},
+          {"content": "Webアプリを開発してほしい", "nextId": "webapp"},
+          {"content": "一度話をしたい", "nextId": "appointment"},
+          {"content": "その他", "nextId": "other_jobs"}
+      ],
+      "question": "どのようなお仕事でしょうか？"
+  },
+  "website": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "Webサイト細作についてですね。コチラからお問い合わせできます。"
+  },
+  "webapp": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "Webアプリ開発についてですね。コチラからお問い合わせできます。"
+  },
+  "appointment": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "是非お話しましょう！まずはコチラからお問い合わせください。"
+  },
+  "other_jobs": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "その他についてですね。コチラからお問い合わせできます。"
+  },
+  "consultant": {
+      "answers": [
+          {"content": "音楽機材投稿アプリ", "nextId": "https://guerrillaradio.herokuapp.com/"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "フロントエンドエンジニアを目指して学習しています！是非使って確かめてみてください！"
+  },
+  "hobby": {
+      "answers": [
+          {"content": "どんな音楽が好きなの？", "nextId": "hobby_activity"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "趣味は音楽とバドミントンです！"
+  },
+  "hobby_activity": {
+      "answers": [
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "RADIOHEADやOASISなどのUKロックが大好きです！"
+  }
+}

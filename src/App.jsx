@@ -3,6 +3,7 @@ import './assets/styles/style.css'
 import {db} from './firebase/index'
 import {AnswersList, Chats, FormDialog} from './components/index'
 
+
 const App = () => {
     const [answers, setAnswers] = useState([]);            // 回答コンポーネントに表示するデータ
     const [chats, setChats] = useState([]);                // チャットコンポーネントに表示するデータ
@@ -101,11 +102,34 @@ const App = () => {
 
     return (
         <section className="c-section">
-            <div className="c-box">
-                <Chats chats={chats} />
-                <AnswersList answers={answers} select={selectAnswer}/>
-                <FormDialog open={open} handleOpen={handleOpen} handleClose={handleClose}/>
-            </div>
+            <header className="HeaderBox">
+                <div className="HeaderBox__right">
+                    <img className="HeaderBox__right--logo"/>
+                </div>
+                <ul className="HeaderBox__links">
+                    <li className="HeaderBox__links--element">about</li>
+                    <li className="HeaderBox__links--element">works</li>
+                    <li className="HeaderBox__links--element">contact</li>
+                    <li className="HeaderBox__links--element">qiita</li>
+                    <li className="HeaderBox__links--icon">🐥</li>
+                    <li className="HeaderBox__links--icon">🐱</li>
+                </ul>
+            </header>
+            <main>
+                <section >
+                    <div className="MainContainer">
+                        <div className="MainContainer__action">
+                            <h2 className="MainContainer__action--name">Kota Takahashi</h2>
+                            <a href="#" className="MainContainer__action--works">WORKS</a>
+                        </div>
+                        <div className="c-box">
+                            <Chats chats={chats} />
+                            <AnswersList answers={answers} select={selectAnswer}/>
+                            <FormDialog open={open} handleOpen={handleOpen} handleClose={handleClose}/>
+                        </div>
+                    </div>
+                </section>
+            </main>
         </section>
     )
 }

@@ -6,7 +6,8 @@ const firebaseConfig = {
   storageBucket: "takahashikota.appspot.com",
   messagingSenderId: "240275371679",
   appId: "1:240275371679:web:9acc5012dafe4cc42bd4aa",
-  measurementId: "G-G7D89NLKBD"
+  measurementId: "G-G7D89NLKBD",
+  slack: process.env
 };
 
 export default firebaseConfig

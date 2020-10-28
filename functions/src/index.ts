@@ -1,5 +1,6 @@
 import * as functions from 'firebase-functions';
 import * as admin from "firebase-admin";
+
 admin.initializeApp(); //adminを初期化
 const db = admin.firestore(); //admin.firestoreを定数に入れておく
 
@@ -25,3 +26,5 @@ export const addDataset = functions.https.onRequest(async(req: any, res: any) =>
     sendResponse(res, 200, {message: 'Successfully added dataset!'})
   }
 })
+
+

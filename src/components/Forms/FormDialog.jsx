@@ -5,7 +5,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import TextInput from './TextInput';
-
+import url from './salckConfig'
 
 const FormDialog = (props) => {
     const [description, setDescription] = useState("");

@@ -293,12 +293,34 @@ section {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.WorksContainer a{
+  text-decoration: none;
+  color: #000;
+}
+
+.articleWrap {
+  height: 400px;
+  width: 500px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.4);
+}
+
+.articleWrap:hover .SiteImage__intro{
+  font-size: bold;
+  color: #000;
+  text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.8);
+}
+.articleWrap:hover {
+  height: 420px;
+  width: 520px;
+  opacity: 0.8;
+  box-shadow: 8px 8px 8px 7px rgba(0,0,0,0.4);
+}
 
 .SiteImage {
   height: 300px;
-  width: 500px;
-  margin-left: 50px;
-  box-shadow: 8px 8px 8px 7px rgba(0,0,0,0.4);
+  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -309,6 +331,18 @@ section {
 
 .guerrillaRadio{
   background-image: url('../img/products/guerrilla-radio.png');
+}
+
+.SiteImage__intro {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.SiteImage__intro--title {
+  margin: 0;
 }
 
 

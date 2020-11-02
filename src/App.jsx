@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/styles/style.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import {Header, FirstView, Warks} from './components/index'
+import {Header, FirstView, Warks, Portfolio} from './components/index'
 
 
 
@@ -13,6 +13,7 @@ const App = () => {
                 <section className ="MainSection">
                     <Route exact path='/' component={FirstView}/>
                     <Route path='/Warks' component={Warks}/>
+                    <Route path='/Portfolio' component={Portfolio}/>
                 </section>
             </main>
         </Router>

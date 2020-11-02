@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/styles/style.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import {Header, FirstView, Warks, Portfolio} from './components/index'
+import {Header, FirstView, Warks, Portfolio, Guerrilla} from './components/index'
 
 
 
@@ -14,6 +14,7 @@ const App = () => {
                     <Route exact path='/' component={FirstView}/>
                     <Route path='/Warks' component={Warks}/>
                     <Route path='/Portfolio' component={Portfolio}/>
+                    <Route path='/Guerrilla' component={Guerrilla}/>
                 </section>
             </main>
         </Router>

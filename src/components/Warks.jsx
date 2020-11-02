@@ -16,7 +16,7 @@ const Warks = () => {
             />
             <section className="WorksContainer">
                 <WorksLink link="/Portfolio"imgTitle="SiteImage portfolio" worksTitle="ポートフォリオ" worksText="Web制作 | デザイン | アニメーション" />
-                <WorksLink link="#" imgTitle="SiteImage guerrillaRadio" worksTitle="Guerrilla Radio" worksText="Webアプリ開発 | SNS | 音楽機材投稿" />
+                <WorksLink link="/Guerrilla" imgTitle="SiteImage guerrillaRadio" worksTitle="Guerrilla Radio" worksText="Webアプリ開発 | SNS | 音楽機材投稿" />
             </section>
         </div>
     )

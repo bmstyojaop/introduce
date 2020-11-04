@@ -1,7 +1,6 @@
 import React from 'react'
 import {Title} from './index'
 import { FaExternalLinkAlt } from 'react-icons/fa';
-import { IconContext } from 'react-icons';
 
 const Guerrilla = () => {
   return(
@@ -29,7 +28,7 @@ const Guerrilla = () => {
                       概要
                   </h3>
                   <p className="WorkDetails__part--text">
-                      高橋滉太のポートフォリオサイト
+                      音楽機材投稿アプリ
                   </p>
               </section>
               <section className="WorkDetails__part">
@@ -37,9 +36,10 @@ const Guerrilla = () => {
                       用途・目的
                   </h3>
                   <p className="WorkDetails__part--text">
-                      ポートフォリオサイトとして作成しました。<br/>
-                      チャットボットを組み込んでコンタクトを取りやすくしたり、アニメーションをつけて訪れた人が楽しめることにこだわったりました。<br/>
-                      また、素速いページの読み込み、コードの保守性を高めるためにReactを採用しました。
+                      音楽好きによる音楽好きのための音楽機材投稿アプリです。<br/>
+                      ただただ楽器を眺めたい、楽器を自慢したいというときがバンドマンにはありますよね。しかしTwitterやinstagramでは、わざわざ検索をしないといけない。それに検索ワードを考えないと、特定の楽器しか表示されていかない。<br/>
+                      そこで！！こんなアプリを開発しました！楽器屋さんをイメージした木目調の背景画像の前に並ぶ音楽機材だけの世界。店内を見回すような感覚になってもらうために基本のスクロールは横方向にしてみました。<br/>
+                      まだまだ改良中のアプリです。是非一度触っていただいて、フィードバックをいただけると嬉しい限りです。
                   </p>
               </section>
               <section className="WorkDetails__part">
@@ -47,9 +47,10 @@ const Guerrilla = () => {
                       使用技術
                   </h3>
                   <p className="WorkDetails__part--text">
-                      HTML　/　CSS　/　JavaScript(React)　/　JSX <br/>
-                      React　/　react-router-dom　/　Material-ui <br/>
-                      Firebase Hosting　/　/　Firestore　/　Cloud Functions
+                      HTML　/　haml　/　CSS　/ Sass <br/>
+                      JavaScript(ES6)　/　jQuery <br/>
+                      Ruby　/　Ruby on Rails <br/>
+                      postgreSQL　/　heroku
                   </p>
               </section>
               <section className="WorkDetails__part">

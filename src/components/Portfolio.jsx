@@ -45,9 +45,9 @@ const Portfolio = () => {
                       使用技術
                   </h3>
                   <p className="WorkDetails__part--text">
-                      HTML　/　CSS　/　JavaScript(React)　/　JSX <br/>
+                      HTML　/　CSS　/　JavaScript(JSX) <br/>
                       React　/　react-router-dom　/　Material-ui <br/>
-                      Firebase Hosting　/　/　Firestore　/　Cloud Functions
+                      Firebase Hosting　/　Firestore　/　Cloud Functions
                   </p>
               </section>
               <section className="WorkDetails__part">

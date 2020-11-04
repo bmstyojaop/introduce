@@ -16,7 +16,6 @@ const Header = () => {
         <ul className="HeaderBox__links">
             <HeaderList url="/About" className="HeaderBox__links--element" string="About" />
             <HeaderList url="/Warks" className="HeaderBox__links--element" string="Works" />
-            {/* <HeaderList url="#" className="HeaderBox__links--element" string="Contact" /> */}
             <a href="https://qiita.com/TasLearnProgram">
                 <li className="HeaderBox__links--element">Qiita</li>
             </a>

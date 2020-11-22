@@ -8,7 +8,7 @@ import Kota from '../assets/img/kota.png';
 
 const Chat = (props) => {
   const isQuestion = (props.type === 'question');
-  const classes = isQuestion ? 'p-chat__row' : 'p-chat__reverse';
+  const classes = isQuestion ? 'Chat__row' : 'Chat__reverse';
   return (
     <ListItem className={classes}>
       <ListItemAvatar>
@@ -18,7 +18,7 @@ const Chat = (props) => {
           <Avatar alt="icon" src={NoProfile} />
         )}
       </ListItemAvatar>
-      <div className="p-chat__bubble">{props.text}</div>
+      <div className="Chat__bubble">{props.text}</div>
     </ListItem>
   )
 }

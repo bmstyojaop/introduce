@@ -1,5 +1,5 @@
 /* chatbot */
-.c-box {
+.ChatsBox {
   box-sizing: border-box;
   height: 100%;
   max-width: 432px;
@@ -9,14 +9,14 @@
   box-shadow: 8px 8px 8px 7px rgba(0,0,0,0.4);
 }
 
-.c-grid__answer {
+.ChatsBox__Answer {
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
   height: 192px;
 }
 
-.p-chat__bubble {
+.Chat__bubble {
   background: #fff;
   border-radius: 4px;
   color: #000;
@@ -28,27 +28,27 @@
   width: auto;
 }
 
-.p-chat__row {
+.Chat__row {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   padding-right: 0 !important;
 }
 
-.p-chat__reverse {
+.Chat__reverse {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
   padding-right: 0 !important;
 }
 
-.p-question__title {
+.Question__title {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
 }
 
-.p-question__description {
+.question__descriotion {
   font-size: 1rem;
   letter-spacing: .125rem;
   line-height: 1.7;

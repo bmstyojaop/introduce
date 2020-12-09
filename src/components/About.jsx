@@ -24,12 +24,12 @@ const About = () => {
                     <div className="ProfileImgBox__text">
                         <h1>高橋滉太</h1>
                         <h4>
-                          生年月日: 1995/09/19
+                          誕生年：1995年
                         </h4>
                         <p>
-                          東海学園大学教育学部をを卒業後、講師として愛知県の小学校に1年間勤務。小学校第二学年の担任として、尽力してきました。<br/>
-                          何か新しいことにチャレンジしたいと思い、プログラミングの学習を開始。そこで本格的にWebエンジニアとして働きたいと感じ、テックキャンプ への入学を決意。<br/>
-                          フロントエンドエンジニアとしてサービスを開発に携わりたい考え、現在はフロントの技術を中心に学習・転職活動中。
+                          東海学園大学教育学部をを卒業後、講師として愛知県の小学校に1年間勤務。2年生の担任として楽しく働いていました。<br/>
+                          何か新しいことにチャレンジしたいと思い、プログラミングの学習を開始。そこで本格的にWebエンジニアとして働きたいと感じ、転職決意。<br/>
+                          現在は、フロントエンドエンジニアを目指して、働きながら勉強しています！
                         </p>
                     </div>
                 </div>
@@ -74,8 +74,6 @@ const About = () => {
                             <ul>
                                 <li classNme="SkillList__gridTable--data">EC2</li>
                                 <li classNme="SkillList__gridTable--data">S3</li>
-                                <li classNme="SkillList__gridTable--data">RDS(MySQL, postgreSQL)</li>
-                                <li classNme="SkillList__gridTable--data">RDS(postgreSQL)</li>
                                 <li classNme="SkillList__gridTable--data">IAM</li>
                             </ul>
                         </div>

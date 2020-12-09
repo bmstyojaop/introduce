@@ -93,7 +93,7 @@ const FirstView = () => {
                     </Link>
                 </div>
             </div>
-            <div className="c-box">
+            <div className="ChatsBox">
                 <Chats chats={chats} />
                 <AnswersList answers={answers} select={selectAnswer}/>
                 <FormDialog open={open} handleOpen={handleOpen} handleClose={handleClose}/>
